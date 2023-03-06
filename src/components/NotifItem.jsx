@@ -17,9 +17,8 @@ function NotifItem({notifItem}) {
                 <img src={profile} alt="{nama}" />
            </div>
            <div className="ml-3 md:ml-4">
-            <div className='text-sm flex md:text-[1rem]'>
-                <div className="
-                ">
+            <div className='text-sm flex md:text-[1rem] md: gap-2'>
+                <div>
                     <span className='font-bold'>{nama}</span> <span className='ml-1 text-md text-secondary-dark-grayish-blue '>{title}</span>
                     <span className={classSubject}>{subject}</span>
                     {!read && (

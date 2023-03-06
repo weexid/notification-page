@@ -6,7 +6,7 @@ function NotifList({item, index}) {
   const [notif, setNotif] = useRecoilState(dataNotification);
 
     const {read} = item;
-    const conditionClass = `cursor-pointer mx-4 mb-3 rounded-xl px-[1.1rem] py-[1.2rem] ${read ? 'bg-secondary-white' : 'bg-secondary-very-light-grayish-blue'}`
+    const conditionClass = `cursor-pointer mx-4 mb-3 rounded-xl px-[1.1rem] py-[1.2rem] ${read ? 'bg-secondary-white' : 'bg-secondary-light-grayish-blue-1'}`
     
     const changeReadStatus = () => {
       //index sudah ada
